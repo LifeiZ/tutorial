@@ -1,4 +1,4 @@
-kitchensink-rf: Example Using Multiple Java EE 6 Technologies with RichFaces
+richfaces-project: Example Using Multiple Java EE 6 Technologies with RichFaces
 ============================================================================
 Author: Pete Muir
 
@@ -11,7 +11,7 @@ This project is setup to allow you to create a compliant Java EE 6 application u
 
 This application builds on top of the standard JSF approach by incorporating the RichFaces project to provide a set of components, allowing for a rich user experience.  RichFaces builds on top of the JSF standard and is a fully portable solution compatible with all JSF implementations.
 
-The `kitchensink` quickstart is built using vanilla JSF for its front end. The `kitchensink-rf` quickstart builds on top of the JSF user interface, augmenting it with RichFaces JSF components and capabilities.  
+The 'richfaces-project' is built using vanilla JSF for its front end. The `richfaces-project` builds on top of the JSF user interface, augmenting it with RichFaces JSF components and capabilities.  
 
 Some key points to make note of while running the application:
 
@@ -25,7 +25,7 @@ Some key points to make note of while running the application:
 
 *   Popups: Click the `view` link next to a member in the member list to view a popup with the member details. To close the popup, click the `X` in the top right-hand corner, or click anywhere on the background mask.
 
-*   Mobile support: View the application from a webkit powered browser on a mobile device to try out the mobile version of the application. Alternatively, view the mobile version on your desktop by navigating to the url:  <http://localhost:8080/jboss-as-kitchensink-rf/mobile/>
+*   Mobile support: View the application from a webkit powered browser on a mobile device to try out the mobile version of the application. Alternatively, view the mobile version on your desktop by navigating to the url:  <http://localhost:8080/richfaces-project/mobile/>
 
 Specific changes to the "vanilla" kitchensink desktop view:
 
@@ -98,13 +98,13 @@ _NOTE: The following build command assumes you have configured your Maven user s
 
         mvn clean package jboss-as:deploy
 
-4. This will deploy `target/jboss-as-kitchensink-rf.war` to the running instance of the server.
+4. This will deploy `target/richfaces-project.war` to the running instance of the server.
 
 
 Access the application 
 ---------------------
 
-The application will be running at the following URL: <http://localhost:8080/jboss-as-kitchensink-rf/>.
+The application will be running at the following URL: <http://localhost:8080/richfaces-project/>.
 
 
 Undeploy the Archive
@@ -144,3 +144,6 @@ If you want to debug the source code or look at the Javadocs of any library in t
     mvn dependency:sources
     mvn dependency:resolve -Dclassifier=javadoc
 
+About project
+--------------
+这是一个工程
