@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+   <title>Java EE 6 Starter Application</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <h:outputStylesheet name="screen.css" library="css"/>
+</h:head>
+<h:body>
+   <div id="container">
+      <div class="dualbrand">
+         <h:graphicImage name="dualbrand_logo.png" library="gfx"/>
+         <h1>Welcome to JBoss!</h1>
+
+        <div>
+            <p>You have successfully deployed a RichFaces web application on JBoss AS 7.</p>
+            <h3>Your application can run on:</h3>
+            <!-- 
+            <h:graphicImage library="gfx" name="dualbrand_as7eap.png"/>
+             -->
+        </div>
+      </div>
+      <div id="aside">
+          <ui:include src="/resources/includes/about.xhtml" />
+      </div>
+      <div id="content">
+         <ui:insert name="content">
+            [Template content will be inserted here]
+         </ui:insert>
+      </div>
+      <div id="footer">
+         <p>
+            This project was generated from a Maven archetype from JBoss.<br />
+         </p>
+      </div>
+   </div>
+</h:body>
+</html>
